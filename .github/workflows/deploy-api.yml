@@ -21,4 +21,4 @@ jobs:
             git pull origin main
 
             cd /srv/infra
-            docker-compose up --build -d
+            docker compose up --build -d
